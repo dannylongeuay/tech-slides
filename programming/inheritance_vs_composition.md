@@ -1,5 +1,5 @@
 ---
-theme: themes/dark.json
+theme: https://raw.githubusercontent.com/dannylongeuay/tech-slides/main/themes/dark.json
 ---
 
 # Inheritance vs Composition
