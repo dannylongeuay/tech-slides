@@ -318,6 +318,30 @@ func main() {
 
 ---
 
+## [BONUS] Python Examples Cont. (Composition)
+
+```python
+class Foo:
+    x = "Buzz"
+
+
+class Bar:
+    foo = Foo()
+    y = "Bazz"
+
+
+foo = Foo()
+bar = Bar()
+
+print("Is a bar an instance of a foo?", isinstance(bar, type(foo)))
+print("Is a foo an instance of a bar?", isinstance(foo, type(bar)))
+
+print("Object of type", type(foo), "has an attribute x =", foo.x)
+print("Object of type", type(bar), "has an attribute x =", bar.foo.x)
+```
+
+---
+
 ## Quote of the Day
 
 > Favor composition over inheritance
