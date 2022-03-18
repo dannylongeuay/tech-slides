@@ -21,6 +21,7 @@ theme: https://raw.githubusercontent.com/dannylongeuay/tech-slides/main/themes/d
 - Mechanism to derive an object from another object
 
 > The car is a vehicle
+> The truck is a vehicle
 
 ---
 
@@ -53,6 +54,7 @@ theme: https://raw.githubusercontent.com/dannylongeuay/tech-slides/main/themes/d
 - Combine related objects into more complex objects
 
 > The car has a steering wheel
+> The car has an engine
 
 ---
 
